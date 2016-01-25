@@ -9,14 +9,15 @@
   "scripts": {
     "postinstall": "selenium-standalone install",
     "start-selenium": "selenium-standalone start",
-    "test" : "node node_modules/webdriverio/bin/wdio wdio.conf.js",
-	"start-server": "http-server ./demo-app"
+    "test": "node node_modules/webdriverio/bin/wdio wdio.conf.js",
+    "start-server": "http-server ./demo-app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "0.8.5",
     "mocha": "^2.3.4",
-    "webdriverio": "^3.4.0",
-	"http-server": "0.8.5"
+    "selenium-standalone": "^4.8.0",
+    "webdriverio": "^3.4.0"
   }
 }
