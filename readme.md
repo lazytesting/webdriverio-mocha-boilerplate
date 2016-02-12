@@ -1,5 +1,9 @@
 # webdriverio-mocha-boilerplate
 
+## Warning: 
+I'm using this project as quick start in my workshops. It allows you to get comfortable with webdriver.
+When you're looking for something you can use in production this boilerplate might not be the best choise. 
+
 ## See
 - https://mochajs.org/
 - http://webdriver.io/api.html
